@@ -29,7 +29,14 @@
 
 .contact {
     font-weight: 800;
-   
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    height: 500px;
+
 }
 
 .hr1,
@@ -48,16 +55,17 @@
     margin-bottom: 25px;
 }
 
-.form {
-    margin: 0 200px;
-    border: solid 1px black;
-    height: 500px;
-}
+
 
 .input {
     margin-left: 20px;
+    height: 20px;
 }
 
 #state_select {
     margin-bottom: 50px;
+}
+
+input {
+    margin-top: 10px;
 }
