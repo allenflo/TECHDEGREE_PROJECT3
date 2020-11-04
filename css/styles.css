@@ -10,14 +10,13 @@
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .signup {
     text-align: center;
     margin-bottom: 7px;
     color: rgb(45 57 69);
-
 }
 
 .latest {
@@ -34,14 +33,20 @@
 .contactform {
     display: flex;
     flex-direction: column;
-    margin: 0 200px;
-    height: 500px;
+  
+    margin: 0 100px;
+    
+    
+}
+
+.contactform label {
+    color: rgb(170 175 180);
 
 }
 
 .hr1,
 .hr2 { 
-    max-width: 55%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -53,19 +58,22 @@
 .hr2 {
     border: solid 1px black;
     margin-bottom: 25px;
-}
-
-
-
-.input {
-    margin-left: 20px;
-    height: 20px;
-}
+} 
+  
 
 #state_select {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-input {
+
+
+input,
+#state_select {
     margin-top: 10px;
-}
+    padding: 15px;
+    background-color: rgb(239 240 241);
+    border: none;
+    border-radius: 5px;
+    
+} 
+
