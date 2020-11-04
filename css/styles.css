@@ -26,20 +26,20 @@
    
 }
 
-.contact {
+legend {
     font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
-.contactform {
+fieldset {
     display: flex;
     flex-direction: column;
-  
     margin: 0 100px;
-    
-    
+    border: none;
 }
 
-.contactform label {
+label {
     color: rgb(170 175 180);
 
 }
@@ -65,8 +65,6 @@
     margin-bottom: 20px;
 }
 
-
-
 input,
 #state_select {
     margin-top: 10px;
@@ -76,4 +74,12 @@ input,
     border-radius: 5px;
     
 } 
+
+::placeholder {
+    font-style: italic;
+    color: rgb(168 173 178);
+    
+}
+
+
 

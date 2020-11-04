@@ -15,14 +15,15 @@
         <hr class="hr1">
         <hr class="hr2">
     <form action="index.html" method="post">
-        <div class="contactform">
-            <h2 class="contact">Contact Information</h2><br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <!-- <h2 class="contact">Contact Information</h2><br> -->
         
             <label for="name">Full Name</label>
-            <input type="text" id="name" name="full_name"><br>
+            <input type="text" id="name" name="full_name" placeholder="Required"><br>
 
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address"><br>
+            <input type="email" id="email" name="email_address" placeholder="Required"><br>
 
             <label for="phone">Phone Number</label>
             <input type="number" id="phone" name="phone_number"><br>
@@ -34,8 +35,8 @@
             <input type="text" id="city" name="city_contact"><br>
 
             <label for ="state">State</label>
-            <select id="state_select">
-                <option value=""></option>
+            <select id="state_select" placeholder="Choose State">
+                <option value="Choose State"></option>
                 <option value="Arizona">Arizona</option>
                 <option value="California">California</option>
             </select>     
@@ -46,7 +47,7 @@
                 
 
            
-        </div>
+        </fieldset>
     
     
     </form>   
