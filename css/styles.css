@@ -97,7 +97,7 @@ p {
 }
 
 footer {
-    margin-bottom: 100px;
+    margin-bottom: 250px;
     margin-top: 40px;
     display: flex;
     font-style: italic;
@@ -106,7 +106,7 @@ footer {
 }
 
 .btn {
-    height: 50px;
+    height: 60px;
     width: 100%;
     margin-top: 30px;
     background-color: rgb(78 187 181);
@@ -120,10 +120,13 @@ footer {
 
 :hover.btn {
     cursor: pointer;
-
 }
 
-.fillin {
-    height: 100px;
-    
+textarea {
+    resize: none;
+    background-color: rgb(239 240 241); 
+    border: none;
+    margin-top: 15px;
 }
+
+
