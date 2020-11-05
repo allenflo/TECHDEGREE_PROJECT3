@@ -44,7 +44,6 @@ footer {
 label,
 footer {
     color: rgb(170 175 180);
-
 }
 
 .hr1,
@@ -63,9 +62,9 @@ footer {
     margin-bottom: 25px;
 } 
   
-
 #state_select {
     margin-bottom: 20px;
+    color: rgb(170 175 180);
 }
 
 input,
@@ -75,7 +74,6 @@ input,
     background-color: rgb(239 240 241);
     border: none;
     border-radius: 5px;
-    
 } 
 
 input[type="text"]::placeholder,
@@ -96,13 +94,19 @@ p {
     width: 50%;
 }
 
+/* .chklabel {
+    display: inline;
+} */
+
+
+
+
 footer {
     margin-bottom: 250px;
     margin-top: 40px;
     display: flex;
     font-style: italic;
     text-align: center;
-
 }
 
 .btn {
@@ -126,7 +130,15 @@ textarea {
     resize: none;
     background-color: rgb(239 240 241); 
     border: none;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding: 5px;
 }
 
+div label {
+    margin-left: 13px;
+}
 
+@media(min-width: 768px)    {
+    
+    
+    
