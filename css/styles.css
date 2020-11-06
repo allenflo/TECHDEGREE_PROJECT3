@@ -6,6 +6,12 @@
 
 body {
     background-color: #ffe05d;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
 }
 
 .signupform {
@@ -42,9 +48,11 @@ legend {
     font-size: 1.5em;
     margin-bottom: 20px;
     letter-spacing: -.5px;
+    margin: 0 100px;
 }
 
-fieldset,
+.formgroup,
+.formgroup2,
 footer {
     display: flex;
     flex-direction: column;
@@ -52,8 +60,8 @@ footer {
     border: none;
 }
 
-label,
-footer {
+label {
+    margin-top: 15px;
     color: #333;
 }
 
@@ -80,8 +88,6 @@ footer {
     color: rgb(170 175 180);
 }
 
-
-
 input,
 #state {
     margin-top: 10px;
@@ -104,8 +110,6 @@ input[type="tel"]::placeholder {
 
 input[type="tel"] {
     font-style: italic;
-   
-
 }
 
 p {
@@ -122,9 +126,9 @@ p {
 footer {
     margin-bottom: 250px;
     margin-top: 40px;
-    
     font-style: italic;
     text-align: center;
+    color: #333;
 }
 
 .btn {
@@ -153,10 +157,6 @@ textarea {
     padding: 5px;
 }
 
-div label {
-    margin-left: 13px;
-}
-
 :focus {
     background-color: white;
     color: black;
@@ -166,6 +166,11 @@ div label {
 
 @media(min-width: 768px)    {
     
+.contactinfo {
+    flex-direction: row;
+    
+    
+}
     
     
 }
