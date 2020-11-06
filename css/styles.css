@@ -139,9 +139,8 @@ textarea {
 
 .btn {
     height: 60px;
-    width: 60%;
-    margin-top: 30px;
-    margin-bottom: 20px; 
+    width: 80%;
+    margin: 30px auto 20px auto;
     background-color: rgb(78 187 181);
     color: white;
     font-size: 1.2em;
@@ -151,13 +150,18 @@ textarea {
     font-weight: 600; 
 }
 
+.submitbutton {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
 :hover.btn {
     cursor: pointer;
 }
 
-.submitbutton {
-    
-}
+
 
 span {
     margin-left: 100px;
