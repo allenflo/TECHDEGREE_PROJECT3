@@ -6,9 +6,14 @@
 
 body {
     background-color: #ffe05d;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1200;
+    /* margin: 0 auto; */
 }
+
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+} 
 
 fieldset {
     border: none;
@@ -46,20 +51,22 @@ fieldset {
 legend {
     font-weight: 800;
     font-size: 1.5em;
-    margin-bottom: 20px;
-    letter-spacing: -.5px;
-    margin: 0 100px;
+    margin-bottom: 20px; 
+    max-width: 75%;
+    
 }
 
 .formgroup  {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
+    margin: 0 auto;
     border: none;
+    max-width: 80%;
 }
 
 .formgroup2 {
-    margin: 0 100px;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 label {
@@ -70,7 +77,7 @@ label {
 
 .hr1,
 .hr2 { 
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -93,7 +100,7 @@ label {
 
 input,
 #state {
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 15px;
     background-color: rgb(239 240 241);
     border: none;
@@ -117,8 +124,7 @@ input[type="tel"] {
 
 p {
    max-width: 70%;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
    font-size: 1.1em;
 }
 
@@ -134,6 +140,8 @@ textarea {
     border: none;
     margin-top: 10px;
     padding: 5px;
+    width: 100%;
+    border-radius: 5px;
     
 }
 
@@ -163,9 +171,7 @@ textarea {
 
 
 
-span {
-    margin-left: 100px;
-}
+
 
 
 :focus {
@@ -185,7 +191,10 @@ footer {
 
 @media(min-width: 768px)    {
     
-
+    .formgroup1 {
+        display: flex;
+        flex-direction: row;
+    }
     
     
 }

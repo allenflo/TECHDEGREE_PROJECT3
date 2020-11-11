@@ -2,22 +2,27 @@
 <html lang="en">
 
     <head>
+        <meta charset="UTF-8">
         <Title>Allen's Form</Title>
+        <link rel="normalize" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
-    <header>
-        <h3 class="title" >The Code Review</h3>
-        
-    </header>
-     <body>
+    <body>
+        <header>
+            <h3 class="title" >The Code Review</h3>
+        </header>
+    
         <h2 class="signup"> Signup for our newsletter</h2>
         <p class="latest"> Get the latest news on how your code is doing right in your inbox</p>
         <hr class="hr1">
         <hr class="hr2">
     <form class="signupform" action="index.html" method="post">
+        
+        <div class="wrapper">
+        
         <fieldset>
             <legend>Contact Information</legend>
                   
@@ -120,7 +125,7 @@
 
             <br>
             
-            <span>Select the newsletters you would like to receive</span>
+            <p>Select the newsletters you would like to receive</span>
 
             <br>
                 
@@ -159,15 +164,17 @@
             
             <div class="formgroup2">
                 
-                <textarea name="other" id="otherarea" rows=6 cols=40></textarea>
+                <textarea name="other" id="otherarea" rows=6></textarea>
             </div>    
             
             <div class="submitbutton">
                 <button class="btn" type="submit">Sign Up</button>
             </div>
         </fieldset>
+    </div>
     </form>   
     
+
     <footer>
         <span>Copyright The Code Review<span>
     </footer>
