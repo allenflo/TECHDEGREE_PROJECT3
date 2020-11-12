@@ -14,24 +14,23 @@
         <header>
             <h3 class="title" >The Code Review</h3>
         </header>
-    
+
         <h2 class="signup"> Signup for our newsletter</h2>
         <p class="latest"> Get the latest news on how your code is doing right in your inbox</p>
         <hr class="hr1">
         <hr class="hr2">
-   
+
         <form class="signupform" action="index.html" method="post">
-        
+
         <fieldset>
-            <div class="formgroup">
-                <legend>Contact Information</legend>
-            </div>  
-            
+
+            <legend>Contact Information</legend>
+
             <div class="formgroup">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="full_name" placeholder="Required" required>
             </div>
-                
+
             <div class="formgroup">
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email_address" placeholder="Required" required>
@@ -43,12 +42,12 @@
                 xxx-xxx-xxxx>
             </div>
 
-                
+
             <div class="formgroup">
                 <label for="address">Street Address</label>
                 <input type="text" id="address" name="street_address">
             </div>
-                
+
             <div class="formgroup">
                 <label for="city">City</label>
                 <input type="text" id="city" name="city_contact">
@@ -108,84 +107,84 @@
                     <option value="westvirginia">West Virginia</option>
                     <option value="wisconsin">Wisconsin</option>
                     <option value="wyoming">Wyoming</option>
-                </select>     
-            </div>        
-                
+                </select>
+            </div>
+
             <div class="formgroup">
                 <label for="zip">Zip Code</label>
                 <input type="text" id="zip" name="zip_code" pattern=[0-9]{5}><br>
             </div>
-        
-        </fieldset>        
+
+        </fieldset>
 
             <hr class="hr2">
 
         <fieldset>
             <legend class="formgroup2">Newsletter</legend>
 
-            
-            
+
+
             <p class="formgroup2">Select the newsletters you would like to receive</p>
 
-            
-                
+
+
             <div class="formgroup2">
                 <input type="checkbox" id="htmlnews" name="html_news">
                 <label for="htmlnews">HTML News</label>
             </div>
-            
+
             <div class="formgroup2">
                 <input type="checkbox" id="cssnews" name="css_news">
                 <label for="cssnews">CSS News</label>
-            </div>       
-                
+            </div>
+
             <div class="formgroup2">
                 <input type="checkbox" id="jsnews" name="js_news">
                 <label for="jsnews">Javascript News</label>
             </div>
 
             <br>
-           
+
             <p class="formgroup2">Newsletter format</p>
-            
-            <div class="formgroup2">       
+
+            <div class="formgroup2">
                 <input type="radio" id="htmlformat" name="htmlorplain" value="HTML">
                 <label for="htmlformat">HTML</label>
-            </div>        
-                
+            </div>
+
             <div class="formgroup2">
                 <input type="radio" id="plainformat" name="htmlorplain" value="Plain">
                 <label for="plainformat">Plain text</label>
-                
-            </div>  
+
+            </div>
 
             <br>
 
             <div class="formgroup2">
-                <label for="other" class="formgroup2">Other topics you'd like to hear about</label>
+                <label class="formgroup2">Other topics you'd like to hear about</label>
             </div>
 
-            
-            
+
+
             <div class="formgroup2">
-                
+
                 <textarea name="other" id="otherarea" rows="6"></textarea>
-            </div>    
-            
+            </div>
+
             <div class="submitbutton">
                 <button class="btn" type="submit">Sign Up</button>
             </div>
         </fieldset>
-        </form>   
-    
-    
-    
+        </form>
+
+
+
 
     <footer>
         <span>Copyright The Code Review</span>
     </footer>
-       
-    
+
+
     </body>
 
 
