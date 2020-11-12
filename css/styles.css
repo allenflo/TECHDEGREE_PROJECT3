@@ -1,4 +1,4 @@
-* {
+*   {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,8 @@
 
 body {
     background-color: #ffe05d;
-    max-width: 1200px;
-    /* margin: 0 auto; */
+    /* max-width: 1200px; */
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -37,7 +37,7 @@ fieldset {
 
     text-align: center;
     margin-bottom: 7px;
-    /* color: rgb(45 57 69); */
+    color: rgb(45 57 69);
     letter-spacing: -.5px;
 }
 
@@ -189,7 +189,7 @@ footer {
 }
 
 
-@media(min-width: 768px)    {
+/* @media(min-width: 768px)    {
 
     .formgroup1 {
         display: flex;
@@ -197,4 +197,4 @@ footer {
     }
 
 
-}
+} */
