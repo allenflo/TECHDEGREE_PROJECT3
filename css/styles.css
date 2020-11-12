@@ -17,6 +17,8 @@ body {
 
 fieldset {
     border: none;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .signupform {
@@ -52,7 +54,7 @@ legend {
     font-weight: 800;
     font-size: 1.25em;
     margin-bottom: 20px;
-    max-width: 75%;
+    /* max-width: 75%; */
 
 }
 
@@ -61,12 +63,12 @@ legend {
     flex-direction: column;
     margin: 0 auto;
     border: none;
-    max-width: 80%;
+    /* max-width: 80%; */
 }
 
 .formgroup2 {
     margin: 0 auto;
-    max-width: 80%;
+    /* max-width: 80%; */
 }
 
 label {
