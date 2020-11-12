@@ -12,8 +12,8 @@ body {
 
 .wrapper {
     max-width: 90%;
-    margin: 0 auto;
-} 
+    margin: 0 auto; 
+}
 
 fieldset {
     border: none;
@@ -50,7 +50,7 @@ fieldset {
 
 legend {
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-bottom: 20px; 
     max-width: 75%;
     
@@ -66,12 +66,13 @@ legend {
 
 .formgroup2 {
     margin: 0 auto;
-   
+    max-width: 80%;
 }
 
 label {
     margin-top: 15px;
     color: #333;
+    
     
 }
 

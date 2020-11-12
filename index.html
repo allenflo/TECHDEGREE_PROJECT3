@@ -19,13 +19,13 @@
         <p class="latest"> Get the latest news on how your code is doing right in your inbox</p>
         <hr class="hr1">
         <hr class="hr2">
-    <form class="signupform" action="index.html" method="post">
-        
-        <div class="wrapper">
+   
+        <form class="signupform" action="index.html" method="post">
         
         <fieldset>
-            <legend>Contact Information</legend>
-                  
+            <div class="formgroup">
+                <legend>Contact Information</legend>
+            </div>  
             
             <div class="formgroup">
                 <label for="name">Full Name</label>
@@ -121,13 +121,13 @@
             <hr class="hr2">
 
         <fieldset>
-            <legend>Newsletter</legend>
+            <legend class="formgroup2">Newsletter</legend>
 
-            <br>
             
-            <p>Select the newsletters you would like to receive</p>
+            
+            <p class="formgroup2">Select the newsletters you would like to receive</p>
 
-            <br>
+            
                 
             <div class="formgroup2">
                 <input type="checkbox" id="htmlnews" name="html_news">
@@ -146,7 +146,7 @@
 
             <br>
            
-            <span for="newformat">Newsletter format</span>
+            <p class="formgroup2">Newsletter format</p>
             
             <div class="formgroup2">       
                 <input type="radio" id="htmlformat" name="htmlorplain" value="HTML">
@@ -156,11 +156,16 @@
             <div class="formgroup2">
                 <input type="radio" id="plainformat" name="htmlorplain" value="Plain">
                 <label for="plainformat">Plain text</label>
+                
             </div>  
 
             <br>
 
-            <span for="other">Other topics you'd like to hear about</span>
+            <div class="formgroup2">
+                <label for="other" class="formgroup2">Other topics you'd like to hear about</label>
+            </div>
+
+            
             
             <div class="formgroup2">
                 
@@ -171,8 +176,9 @@
                 <button class="btn" type="submit">Sign Up</button>
             </div>
         </fieldset>
-    </div>
-    </form>   
+        </form>   
+    
+    
     
 
     <footer>
