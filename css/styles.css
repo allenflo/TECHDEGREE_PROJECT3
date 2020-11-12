@@ -6,7 +6,6 @@
 
 body {
     background-color: #ffe05d;
-    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
@@ -47,6 +46,8 @@ fieldset {
     text-align: center;
     color: #333;
     margin-bottom: 30px;
+    max-width: 70%;
+    
 
 }
 
@@ -91,7 +92,7 @@ label {
 
 .hr2 {
     border: solid 1px black;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 
 }
 
@@ -183,7 +184,7 @@ textarea {
 }
 
 footer {
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     margin-top: 40px;
     font-style: italic;
     text-align: center;
