@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "El Messiri";
 }
 
 body {
@@ -9,10 +10,10 @@ body {
     margin: 0 auto;
 }
 
-.wrapper {
-    max-width: 90%;
-    margin: 0 auto;
-}
+/* .wrapper {
+    /* max-width: 95%;
+    /* margin: 0 auto;
+} */
 
 fieldset {
     border: none;
@@ -69,7 +70,12 @@ legend {
 
 .formgroup2 {
     margin: 0 auto;
-    /* max-width: 80%; */
+}
+
+p {
+    padding-bottom: 5px;
+    font-weight: 600;
+
 }
 
 label {
@@ -194,12 +200,55 @@ footer {
 }
 
 
-/* @media(min-width: 768px)    {
 
-    .formgroup1 {
-        display: flex;
-        flex-direction: row;
-    }
+@media(min-width: 768px)    {
+
+body {
+    max-width: 800px;
+}
+
+.formgroup {
+    /* display: flex; */
+    flex-direction: row;
+    padding: .5em 0 .5em 0;
+    justify-content: flex-end;
+}
+
+.formgroup > label {
+    flex: 1;
+}
+
+.formgroup > input {
+    flex: 5;
+}
+
+.formgroup > select {
+    flex: 5;
+}
+
+fieldset {
+    max-width: 85%;
+}
+
+#state {
+    margin-bottom: 0;
+    max-width: 85%;
+}  
+
+.formgroup > text {
+    margin-top: -10px;
+}
+
+#zipcode input[type="text"] {
+    max-width: 25%;
+    
+    
+}
+   
+    
 
 
-} */
+    
+
+
+}
