@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -11,8 +10,6 @@ body {
     max-width: 768px;
     font-family: "El Messiri", sans-serif;
 }
-
-
 
 fieldset {
     border: none;
@@ -47,23 +44,18 @@ fieldset {
     color: #333;
     margin-bottom: 30px;
     max-width: 70%;
-    
-
 }
 
 legend {
     font-weight: 800;
     font-size: 1.25em;
     margin-bottom: 20px;
-    
-
 }
 
 .formgroup  {
     display: flex;
     flex-direction: column;
     border: none;
-    
 }
 
 .formgroup2 {
@@ -80,8 +72,6 @@ p {
 label {
     margin-top: 15px;
     color: #333;
-
-
 }
 
 .hr1,
@@ -136,13 +126,9 @@ input[type="tel"] {
     font-style: italic;
 }
 
-
-
 #zip {
     width: 50%;
 }
-
-
 
 textarea {
     resize: none;
@@ -152,7 +138,6 @@ textarea {
     padding: 5px;
     width: 100%;
     border-radius: 5px;
-
 }
 
 .btn {
@@ -171,22 +156,16 @@ textarea {
 .submitbutton {
     display: flex;
     justify-content: center;
-
 }
-
 
 :hover.btn {
     cursor: pointer;
 }
 
-
 :focus {
     background-color: white;
     color: black;
 }
-
-
-
 
 footer {
     margin-bottom: 50px;
@@ -197,36 +176,33 @@ footer {
 }
 
 
-
 @media(min-width: 768px)    {
 
 .formgroup {
     flex-direction: row;
     padding: .5em 0 .5em 0;
-    
 }
 
 .formgroup label {
-    flex-grow: 1;
-   
+    flex-basis: 25%;
     margin: auto 0;
 }
 
 .formgroup select {
     flex-grow: 1;
-    
-    flex-basis: 65%;
+    flex-basis: 80%;
 }
 
 .formgroup input {
-    
+    flex-grow: 1;
     flex-basis: 80%;
 } 
 
- #zip {
-    max-width: 25%;
-    display: inline-flex;
+#zip {
+    display: flex;
+    max-width: 30%;
+    margin-left: -7px;
+    
 }
-
 
 }
