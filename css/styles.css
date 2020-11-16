@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "El Messiri";
+    
 }
 
 body {
     background-color: #ffe05d;
     margin: 0 auto;
+    max-width: 768px;
+    font-family: "El Messiri", sans-serif;
 }
 
-/* .wrapper {
-    /* max-width: 95%;
-    /* margin: 0 auto;
-} */
+
 
 fieldset {
     border: none;
@@ -56,16 +55,15 @@ legend {
     font-weight: 800;
     font-size: 1.25em;
     margin-bottom: 20px;
-    /* max-width: 75%; */
+    
 
 }
 
 .formgroup  {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     border: none;
-    /* max-width: 80%; */
+    
 }
 
 .formgroup2 {
@@ -75,7 +73,8 @@ legend {
 p {
     padding-bottom: 5px;
     font-weight: 600;
-
+    margin: 0 auto;
+    font-size: 1.1em;
 }
 
 label {
@@ -88,7 +87,7 @@ label {
 .hr1,
 .hr2,
 .hrbottom {
-    max-width: 70%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -99,7 +98,7 @@ label {
 
 .hr2 {
     border: solid 1px black;
-    /* margin-bottom: 25px; */
+    
 }
 
 .hrbottom {
@@ -137,11 +136,7 @@ input[type="tel"] {
     font-style: italic;
 }
 
-p {
 
-   margin: 0 auto;
-   font-size: 1.1em;
-}
 
 #zip {
     width: 50%;
@@ -188,8 +183,10 @@ textarea {
 :focus {
     background-color: white;
     color: black;
-
 }
+
+
+
 
 footer {
     margin-bottom: 50px;
@@ -203,52 +200,33 @@ footer {
 
 @media(min-width: 768px)    {
 
-body {
-    max-width: 800px;
-}
-
 .formgroup {
-    /* display: flex; */
     flex-direction: row;
     padding: .5em 0 .5em 0;
-    justify-content: flex-end;
-}
-
-.formgroup > label {
-    flex: 1;
-}
-
-.formgroup > input {
-    flex: 5;
-}
-
-.formgroup > select {
-    flex: 5;
-}
-
-fieldset {
-    max-width: 85%;
-}
-
-#state {
-    margin-bottom: 0;
-    max-width: 85%;
-}  
-
-.formgroup > text {
-    margin-top: -10px;
-}
-
-#zipcode input[type="text"] {
-    max-width: 25%;
-    
     
 }
+
+.formgroup label {
+    flex-grow: 1;
    
-    
+    margin: auto 0;
+}
 
-
+.formgroup select {
+    flex-grow: 1;
     
+    flex-basis: 65%;
+}
+
+.formgroup input {
+    
+    flex-basis: 80%;
+} 
+
+ #zip {
+    max-width: 25%;
+    display: inline-flex;
+}
 
 
 }
